@@ -1,0 +1,75 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#header .navbar {
+  background-color: #23856D;
+  width: 100%;
+}
+#header .navbar .box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar .box .navbar_text {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+}
+#header .navbar .box .navbar_text img {
+  width: 15px;
+}
+#header .navbar .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar .social .social_text {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  color: #fff;
+}
+
+.navbar_item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.navbar_item .item_text {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.bag {
+  color: rgb(35, 166, 240);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  height: 15px;
+}
+.bag .register {
+  color: rgb(35, 166, 240);
+}
+
+.footer_text {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+.footer_text .footer_icons {
+  display: flex;
+  gap: 25px;
+  margin-right: 40px;
+}/*# sourceMappingURL=style.css.map */
